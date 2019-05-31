@@ -1,10 +1,13 @@
 
 package chess.system;
 
+import chess.system.boardgame.Position;
+
 public class ChessSystem {
 
     public static void main(String[] args) {
-        System.out.println("oi");
+        Position pos = new Position(5, 4);
+        System.out.println(pos);
     }
     
 }
